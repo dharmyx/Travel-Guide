@@ -248,6 +248,12 @@ a {
     .inner-content {
         max-width: 100%;
         border: none;
+        max-width: 100%;
+        height: auto;
+        background-image: url(img/rock-bg.jpeg);
+        background-position-x: -100px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     .header-items {
         width: 100%;
