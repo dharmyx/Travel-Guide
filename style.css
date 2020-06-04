@@ -247,6 +247,7 @@ a {
     }
     .inner-content {
         max-width: 100%;
+        border: none;
     }
     .header-items {
         width: 100%;
@@ -313,10 +314,11 @@ a {
         height: auto;
         border: none;
         text-align: center;
+        margin: 20px 50px;
     }
     .explore {
-        width: 90%;
-        font-size: 1.6rem;
+        width: 100%;
+        font-size: 2.1rem;
         margin: 40px auto;
         animation: fadeInLeft 3s 1;
     }
@@ -462,7 +464,7 @@ a {
     }
 
     .menu-wrap .menu > div {
-        background: rgb(4, 42, 79, .75);
+        background: rgb(14, 17, 24, .85);
         border-radius: 10px;
         width: 60vw;
         height: 60vh;
