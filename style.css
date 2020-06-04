@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(img/rocky-bg2.jpeg);
+    background-image: url(img/rocky-bg3.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -234,14 +234,20 @@ a {
 
 
   @media (max-width: 768px) {
-   
-      .content {
-          max-width: 90%;
-      }
-      .inner-content {
-          max-width: 100%;
-      }
-      .header-items {
+
+    body {
+        background-image: url(img/rocky-bg2.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .content {
+        max-width: 90%;
+    }
+    .inner-content {
+        max-width: 100%;
+    }
+    .header-items {
         width: 100%;
         height: auto;
         padding: 15px 40px;
