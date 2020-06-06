@@ -448,7 +448,7 @@ a {
     }
 
     .menu-wrap .toggler:checked ~ .menu > div {
-        transform: scale(1);
+        transform: scale(1.2);
     }
 
     .menu-wrap .toggler:checked ~ .menu > div > div {
@@ -478,9 +478,23 @@ a {
         flex: none;
         align-items: center;
         justify-content: center;
-        transform: scale(0);
-        transition: all 0.4s ease;
+        transform: scaleX(1.5);
+        transition: all 800ms ease;
+        animation: fadeInDown 5s 1;
     }
+       @keyframes fadeInDown {
+     from {
+       opacity: 0;
+       -webkit-transform: translate3d(0, -100%, 0);
+       transform: translate3d(0, -100%, 0);
+     }
+     to {
+       opacity: 1;
+       -webkit-transform: translate3d(0, 0, 0);
+       transform: translate3d(0, 0, 0);
+     }
+    }   
+
 
     .menu-wrap .menu > div > div {
         text-align: center;
